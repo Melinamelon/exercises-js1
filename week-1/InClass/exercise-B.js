@@ -7,3 +7,4 @@ console.log("Oops I did it again");
 console.log("Hello my love");
 console.log("The truth is that I never shoot my shadow");
 console.log("Kuroi namida");
+console.log("Chikorita");
