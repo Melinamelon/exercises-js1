@@ -1,10 +1,10 @@
-const namem = "Meli";
-const birthyear = 1990;
+const nombre = "Melina";
+const nacimiento = 1990;
 
-function introducingMyself (namem, year, birthyear){
-    let year = 2021 - birthyear;
-    const frase = "Mi nombre is " + namem + " y tengo " + year;
-    return frase;
+function saludo(nombre, nacimiento){
+    let edad = 2021 - nacimiento;
+    const mensaje = "Mi nombre es " + nombre + " y tengo " + edad + " años.";
+    return mensaje;
 }
 
-console.log(introducingMyself(namem, year));
+console.log(saludo(nombre, nacimiento)+ " " + typeof saludo());
