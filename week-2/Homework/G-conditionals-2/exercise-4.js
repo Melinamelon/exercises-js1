@@ -9,7 +9,14 @@
 */
 
 function containsCode(sentence) {
-
+  arrayString = sentence.split (" ");
+  codePresent = false;
+  for (x in arrayString) {
+    if (arrayString[x].toLowerCase() === "future"){
+      codePresent = true;
+    }
+  }
+return codePresent;
 }
 
 /* 

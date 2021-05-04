@@ -7,8 +7,13 @@
 */
 
 function negativeOrPositive(number) {
-
+  if (number < 0) {
+    return "negative";
+  } else if (number >= 0) {
+    return "positive";
+  }
 }
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -21,7 +26,7 @@ console.log(number1 + " is " + negativeOrPositive(number1));
 console.log(number2 + " is " + negativeOrPositive(number2));
 console.log(number3 + " is " + negativeOrPositive(number3));
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   5 is positive

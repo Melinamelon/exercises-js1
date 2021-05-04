@@ -6,10 +6,45 @@
 
 */
 
-let n = 10;
+let n = 31;
 
-function sumTillNum(num){
+function sumTillNum(num) {
 	//your code here
+	let x = 0;
+	let sum = 0;
+	while (x <= num) {
+		sum = sum + x;
+		x = x + 1;
+	}
+	return sum;
 }
 
+let m = 31;
+
+function sumTillNum2(number) {
+	let suma = [];
+	for (let number = 0;
+		number <= 10;
+		number++) {
+		suma.push(number);
+	}
+	return suma.join(" + ");
+}
+
+let z = 10;
+
+
+function sumTillNum3(numb) {
+	let sum = 0;
+	while (numb > 0) {
+		sum = sum + numb;
+		numb--;
+	}
+	return sum
+}
+
+
+
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+console.log("Sum from 0 to " + m + " is: " + sumTillNum2(m));
+console.log("Sum from 0 to " + n + " is: " + sumTillNum3(z));
