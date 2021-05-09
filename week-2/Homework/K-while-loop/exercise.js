@@ -23,15 +23,15 @@ let m = 31;
 
 function sumTillNum2(number) {
 	let suma = [];
-	for (let number = 0;
-		number <= 10;
-		number++) {
-		suma.push(number);
+	for (let number1 = 0;
+		number1 <= number;
+		number1++) {
+		suma.push(number1);
 	}
 	return suma.join(" + ");
 }
 
-let z = 10;
+let z = 31;
 
 
 function sumTillNum3(numb) {
@@ -46,5 +46,5 @@ function sumTillNum3(numb) {
 
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
-console.log("Sum from 0 to " + m + " is: " + sumTillNum2(m));
+console.log("Sum from 0 to " + m + " is: " + sumTillNum2(23));
 console.log("Sum from 0 to " + n + " is: " + sumTillNum3(z));

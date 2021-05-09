@@ -18,8 +18,6 @@ const nombresOrdered = alumnos.sort();
 console.log(nombresOrdered);
 
 //.concat()
-alumnos.concat("Silvia")
-console.log(alumnos); //no aparece silvia, no devuelve un nuevo array
 
 const newLista = alumnos.concat("Silvi");
 console.log(newLista)
@@ -34,7 +32,7 @@ console.log(newLista)
 // ['b']
 
 // .includes()
-function isInMyClass(name){
+function isInMyClass(name) {
     return alumnos.includes(name);
 }
 console.log("Is Melina in my class?");
