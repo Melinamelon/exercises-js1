@@ -12,7 +12,8 @@ console.log(alumnos);
 // Add someone else to the end of the list
 alumnos[7] = "Valeria";
 console.log(alumnos);
-
+alumnos.push("Valerio");
+console.log("Prueba con push"+alumnos);
 // .sort()
 const nombresOrdered = alumnos.sort();
 console.log(nombresOrdered);
