@@ -13,8 +13,8 @@ function sumTillNum(num) {
 	let x = 0;
 	let sum = 0;
 	while (x <= num) {
-		sum = sum + x;
-		x = x + 1;
+		sum = sum + x; // sum += x;
+		x = x + 1; // x++;
 	}
 	return sum;
 }

@@ -1,4 +1,4 @@
-/*
+/* creo que lo que tengo que hacer es poner un if tal cosa return esto, else, return esto otro
   You are given a program that logs pairings between mentors and students
   It fails because the array `pairsById` can contain null values
   It is decided that if there is a null value the program should exit
@@ -21,4 +21,10 @@ var pairs = pairsByIndex.map(function(indexes) {
   return [student, mentor];
 });
 
+function isNotAString(none){
+  return none === null;
+}
+var containsNull = pairsByIndex.some(isNotAString);
+console.log(containsNull)
 console.log(pairs);
+
