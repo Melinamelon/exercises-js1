@@ -1,5 +1,3 @@
-// en la linea 13   --- >     && names[0] === "A"
-
 
 /* 
   You are given an array of names.
@@ -10,7 +8,7 @@
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 function findLongNameThatStartsWithA(name) {
-  return name.length > 7;
+  return name.length > 7 && name.charAt(0) === "A";
 }
 var longNameThatStartsWithA = names.find(findLongNameThatStartsWithA);
 
